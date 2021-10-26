@@ -32,7 +32,8 @@ class Schedule extends Model
         'email_output',
         'sendmail_error',
         'status',
-        'run_in_background'
+        'run_in_background',
+        'name'
     ];
 
     protected $attributes = [
